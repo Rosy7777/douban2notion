@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
         NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        MOVIE_NOTION_TOKEN: ${{ secrets.MOVIE_NOTION_TOKEN }}
-        NOTION_MOVIE_URL: ${{ secrets.NOTION_MOVIE_URL }}
+        MOVIE_NOTION_TOKEN: ${{ secrets.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 }}
+        NOTION_MOVIE_URL: ${{ secrets.13b86019-c92c-811e-bb40-db4f11c035e6 }}
         DOUBAN_NAME: ${{ secrets.DOUBAN_NAME }}
         YEAR: ${{ vars.YEAR }}
         REF: ${{ github.ref }}
